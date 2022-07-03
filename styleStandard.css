@@ -1,0 +1,51 @@
+/* * {
+  outline: 1px dotted black;
+} */
+
+body {
+  background-color: skyblue;
+  max-width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+nav {
+  display: flex;
+  background-color: rgb(165, 139, 216);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 130px;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuLink {
+  background-color: darksalmon;
+  padding: 10px 50px;
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-bottom: 120px;
+}
+
+.card {
+  padding: 20px;
+  border: solid 1px black;
+  border-radius: 25px;
+  margin: 30px auto;
+  max-width: 300px;
+  box-shadow: 5px 10px;
+}
